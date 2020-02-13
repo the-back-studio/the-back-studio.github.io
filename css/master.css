@@ -1,25 +1,26 @@
 body{
   font-family: 'Mukta Malar', sans-serif;
+  background-color:white;
 }
 a,a:visited{
   text-decoration: none;
   color:black;
 }
 #header{
-  text-align: center;
-  /* margin-bottom: 20px; */
+  margin-top:20px;
+  text-align: left;
 }
 #title{
-
   font-size: 30px;
 }
 .headerLink{
   display: inline-block;
-  transition: color 0.2s ease;
+  transition: all 0.5s ease;
 }
 .headerLink:hover{
-  color:darkblue;
-  cursor:  ne-resize;
+  color:#0000cc;
+  cursor:  crosshair;
+  /* background-color: blue; */
 }
 img{
   width:700px;
@@ -27,9 +28,18 @@ img{
   margin:auto;
   margin-top:30px;
 }
-.wrapper{
+.wrapper,.infowrapper{
   margin:auto;
-  /* width:1000px; */
+}
+.infowrapper a,.infowrapper a:visited{
+  color:blue;
+}
+.indexWorks img{
+  display:inline;
+  text-align: center;
+}
+.indexWorks{
+  text-align: center;
 }
 .label{
   /* text-align: right; */
@@ -41,8 +51,15 @@ img{
   padding:10px;
   font-size:15px;
 }
+.label:hover{
+  cursor:cell;
+}
 .workTitle{
   font-weight:bold;
   letter-spacing: 1px;
 }
 .buffer{height:100px;}
+.info{
+  margin-top:100px;
+  text-align: center;
+}
