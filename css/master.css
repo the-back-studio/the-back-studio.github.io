@@ -15,11 +15,11 @@ a,a:visited{
 }
 .headerLink{
   display: inline-block;
-  transition: all 0.5s ease;
+  transition: all 0.10s ease;
 }
 .headerLink:hover{
-  color:#0000cc;
-  cursor:  crosshair;
+  color:##BBBBBB;
+  cursor: cell;
   /* background-color: blue; */
 }
 img{
@@ -52,7 +52,7 @@ img{
   font-size:15px;
 }
 .label:hover{
-  cursor:cell;
+  cursor:crosshair;
 }
 .workTitle{
   font-weight:bold;
