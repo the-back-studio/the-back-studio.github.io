@@ -15,10 +15,10 @@ a,a:visited{
 }
 .headerLink{
   display: inline-block;
-  transition: all 0.10s ease;
+  transition: all 0.6s ease;
 }
 .headerLink:hover{
-  color: white;
+  color: #808080;
   cursor: cell;
   /* background-color: blue; */
 }
