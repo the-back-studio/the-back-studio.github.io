@@ -18,7 +18,7 @@ a,a:visited{
   transition: all 0.10s ease;
 }
 .headerLink:hover{
-  color:##BBBBBB;
+  color: white;
   cursor: cell;
   /* background-color: blue; */
 }
