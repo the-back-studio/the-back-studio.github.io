@@ -36,7 +36,7 @@ img{
   cursor: help;
 }
 .indexWorks img{
-  display:inline;
+  display:block;
   text-align: center;
 }
 .indexWorks{
