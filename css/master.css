@@ -30,10 +30,10 @@ img{
 }
 .wrapper,.infowrapper{
   margin:auto;
-  cursor: help;
 }
 .infowrapper a,.infowrapper a:visited{
   color:blue;
+  cursor: help;
 }
 .indexWorks img{
   display:inline;
