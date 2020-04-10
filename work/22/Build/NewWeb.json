@@ -1,0 +1,16 @@
+{
+"companyName": "YaazdContractor",
+"productName": "DigitalPVCcomposition ",
+"productVersion": "0.1",
+"dataUrl": "NewWeb.data.unityweb",
+"wasmCodeUrl": "NewWeb.wasm.code.unityweb",
+"wasmFrameworkUrl": "NewWeb.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.1f1"
+}
