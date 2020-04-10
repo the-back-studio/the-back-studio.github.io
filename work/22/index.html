@@ -1,92 +1,51 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>the-back-studio</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Malar&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="header">
+        <div><a id="title"class="headerLink" href="../../index.html">the back studio</a></div>
+        <div><a id="infoLink"class="headerLink" href="../../info.html">info</a></div>
+      </div>
 
-	<link href="https://fonts.googleapis.com/css?family=Mukta+Malar&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/css/master.css">
+      <div style="align-items: center;">
 
-	<title>DigitalPVCcomposition </title>
-	<script src="Build/UnityLoader.js"></script>
-	<script>
-		var gameInstance = UnityLoader.instantiate("gameContainer", "Build/NewWeb.json");
-		var scaleToFit;
-		try{
-			scaleToFit = !!JSON.parse("");
-		}catch(e){
-			scaleToFit = true;
-		}
-		window.onresize = function(){
-			var canvas = gameInstance.Module.canvas;
-			var container = gameInstance.container;
-			var w;
-			var h;
+      <img src="1.png">
+      <img src="2.png">
+      <img src="3.png">
+      <img src="4.png">
+      <img src="5.png">
+      <img src="6.png">
 
-			if(scaleToFit){
-				w = window.innerWidth;
-				h = window.innerHeight;
-
-				var r = 768/1360;
-
-				if(w * r > window.innerHeight){
-					w = Math.min(w, Math.ceil(h / r));
-				}
-				h = Math.floor(w * r);
-			}else{
-				w=1360;
-				h=768;
-			}
-
-			container.style.width = canvas.style.width = w + "px";
-			container.style.height = canvas.style.height = h + "px";
-			container.style.top = Math.floor((window.innerHeight - h)/2) + "px";
-			container.style.left = Math.floor((window.innerWidth - w)/2) + "px";
-		}
-	</script>
-	<style>
-		html,body{
-			background: #000;
-			background: ;
-			width: 100%;
-			height: 100%;
-			overflow:visible;
-			padding:0;
-			margin:0;
-		}
-		div#gameContainer{
-			background: transparent!important;
-			position: absolute;
-		}
-		div#gameContainer canvas{
-			position: static;
-			image-rendering: optimizeSpeed;
-            image-rendering: -webkit-crisp-edges;
-			image-rendering: -moz-crisp-edges;
-			image-rendering: -o-crisp-edges;
-			image-rendering: crisp-edges;
-			image-rendering: -webkit-optimize-contrast;
-            image-rendering: optimize-contrast;
-			image-rendering: pixelated;
-			-ms-interpolation-mode: nearest-neighbor;
-		}
-	</style>
-</head>
-
-<body onload="window.onresize();">
-
-	<div class="wrapper">
-		<div id="header">
-			<div><a id="title"class="headerLink" href="../../index.html">the back studio</a></div>
-			<div><a id="infoLink"class="headerLink" href="../../info.html">info</a></div>
-
-<div style="align-items: center;">
-
-<img src="Controls.jpg">
-
-	<div id="gameContainer" style="width: 1360px; height: 768px"></div>
+      <img src="Controls.jpg">
 
 </div>
+
+<div style="text-align:center;">
+  Play web version
+</div>
+
+	<div class="link">
+<a href="Game.html"><img src="Globe.png" style="width;10px"> </a>
+</div>
+
+	<div style="text-align:center;">
+		Downloadable versions of the game
+	</div>
+
+
+	<div class="downloads">
+		<a href="https://drive.google.com/file/d/1j3VC2SeUyWjL7x74ScAV9b7v1CS2c5dG/view?usp=sharing"><img src="WindowsLogo.png" style="width;10px"> </a>
+		<!-- <br> -->
+		<a href="https://drive.google.com/file/d/1z7375Ghc5AYrb0oYTgEWWJrzMDVPKRUk/view?usp=sharing"><img src="AppleLogo.png" style="width;10px"> </a>
+	</div>
+
+
 <div class="buffer"></div>
 <div class="label">
 	<div class="workTitle">Digital PVC composition n.1 - Emission Lines </div>
@@ -94,20 +53,6 @@
 	<div>A playable game version of one half of the work created by The Back Studio for their show Emission Lines,</div>
 	<div>scheduled to open at the Ground Level Platform on Friday March 13th 2020.</div>
 	<div>Unity, Rhino, Maya</div>
-</div>
-
-
-
-	<div style="text-align:center;">
-		Find downloadable versions of the game below
-	</div>
-
-
-	<div class="downloads">
-		<a href="https://drive.google.com/file/d/1j3VC2SeUyWjL7x74ScAV9b7v1CS2c5dG/view?usp=sharing"><img src="WindowsLogo.png" width="10px"> </a>
-		<!-- <br> -->
-		<a href="https://drive.google.com/file/d/1z7375Ghc5AYrb0oYTgEWWJrzMDVPKRUk/view?usp=sharing"><img src="AppleLogo.png" width="10px"> </a>
-	</div>
 </div>
 
 </body>
